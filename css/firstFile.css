@@ -1,0 +1,1299 @@
+@media (min-width: 1201px){
+  body {
+    margin: 0px;
+  }
+  .header {
+    background-color: rgb(31, 31, 31);
+  }
+  .navigation_left {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav_brand:hover {
+    opacity: 0.7;
+  }
+  .nav_menu {
+    padding: 0px 15px;
+  }
+  .nav_menu > li {
+    display: inline-block;
+    padding: 15px 21px;
+    font-family: 'Playfair Display', serif;
+  }
+  .nav_menu > li a:hover {
+    opacity: 0.7;
+  }
+  .scrolls {
+    color: whitesmoke;
+  }
+  .nav_overlay_panel {
+    display: none;
+  }
+  .nav_menu_overlay_panel {
+    display: none;
+  }
+  .banner_top_detail {
+    position: relative;
+    display: flex;
+  }
+  .banner_top_detail > .container {
+    padding: 50px 15px 40px 15px;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner_fadeInUp {
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(122, 122, 122);
+    padding: 7px 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .banner_fadeInUp > .bn {
+    display: flex;
+    align-items: center;
+  }
+  .bn > p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    color: whitesmoke;
+  }
+  .bn > p > strong {
+    color: peru;
+    padding: 0px;
+    margin: 0px;
+  }
+  #img_bn_clear {
+    padding-top: 5px;
+  }
+  #img_bn_clear:hover {
+    cursor: pointer;
+  }
+  .banner_main_content {
+    text-align: right;
+    margin-left: auto;
+    margin-top: 60px;
+  }
+  .banner_main_content img {
+    width: 360px;
+    height: 80px;
+    margin: 0px;
+    margin-bottom: 14px;
+  }
+  .banner_main_content h4 {
+    font-weight: 500px;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    line-height: 36px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+  }
+  .banner_list {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 16px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner_list_detail {
+    width: 50%;
+    display: flex;
+  }
+  .img_bn_1 {
+    width: 40%;
+    align-self: center;
+  }
+  .img_bn_1 img {
+    height: 30px;
+  }
+  .img_bn_2 {
+    width: 60%;
+  }
+  .img_bn_2 img {
+    width: 100%;
+    height: 130px;
+  }
+  .banner_list_detail_2 {
+    display: flex;
+    align-items: center;
+    width: 40%;
+  }
+  .btn_h2_bn {
+    width: 60%;
+  }
+  .btn_h2_bn h2 {
+    color: yellow;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+  }
+  .btn_live {
+    width: 40%;
+  }
+  .btn_live a img {
+    height: 50px;
+  }
+  .btn_live a img:hover {
+    opacity: 0.7;
+  }
+  .main_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .main_video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-fit: coverは動画や写真コンテナで使われる */
+  }
+  .middle {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    padding: 90px 15px;
+    width: 100%;
+  }
+  .middle > .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video_introduce iframe {
+    width: 800px;
+    height: 400px;
+  }
+  .feel_blockchain_tech {
+    display: flex;
+    margin: auto;
+    margin-top: 50px; 
+    justify-content: space-between;
+    max-width: 800px;
+  }
+  .feel_blockchain_tech div {
+    align-items: baseline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: flex;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .feel_blockchain_tech div h4 {
+    margin: 0px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+  }
+  .feel_blockchain_tech div span {
+    font-size: 22px;
+    line-height: 22px;
+    display: block;
+  }
+  .middle_content_1 {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_3.png);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 15px;
+    width: 100%;
+  }
+  .middle_content_1 > .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .turners_title > img {
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+  }
+  .turners_title > h2 {
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .turners_text .line_gray {
+    width: 100%;
+    height: 3px;
+  }
+  .turners_p p {
+    margin-left: 10px;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+  }
+  .turners_p p img {
+    width: 28px;
+    height: 44px;
+  }
+  .turners_p span {
+    margin-left: 10px;
+    color: white;
+  }
+  .feature_content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .middle_content_2 {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 15px;
+    width: 100%;
+  }
+  .middle_content_2 > .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title_concept {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .title_concept img {
+    width: 260px;
+    height: 60px;
+  }
+  .concept_itemization {
+    min-width: 45%;
+  }
+  .activities_content {
+    margin-left: 10px;
+  }
+  .activities_content_detail {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: rgb(37, 37, 36);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  .activities_content div {
+    padding: 25px;
+    background-color: rgb(226, 238, 247);
+    border-radius: 5px;
+  }
+  .activities_content p {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .activities_content strong {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .places_content {
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  .place {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(226, 238, 247);
+    margin-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  .places_content div {
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 36);
+  }
+  .places_content p {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+  }
+  .places_content strong {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .concept_add_animation {
+    max-width: 100%;
+    margin-right: 15px;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  .concept_add_animation_content_1 {
+    width: 510px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .concept_add_animation_content_1 div img {
+    border: solid 2px;
+    border-color:rgb(135, 255, 249);
+    border-radius: 8px;
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .middle_content_4 {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockcain_img_4.png);
+    background-size: cover;
+    background-position: center;
+    padding: 55px 15px;
+    width: 100%;
+  }
+  .middle_content_4 > .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title_road_map {
+    text-align: center;
+  }
+  .title_road_map img {
+    width: 300px;
+    height: 50px;
+  }
+  .line_gray_2 {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 50px;
+  }
+  .road_map_detail_content_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .road_sch {
+    width: 400px;
+    height: auto;
+    margin: 0px 15px 30px;
+    background-color: rgb(8, 8, 8);
+    border: 2px solid rgb(177, 177, 177); 
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .road_sch h4 {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.822);
+  }
+  .line_gray_3 {
+    width: 400px;
+    height: 2px;
+  }
+  .road_sch ul {
+    padding-left: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+  }
+  .road_sch ul li {
+    color:rgba(201, 201, 201, 0.932);
+    font-size: 18px;
+  }
+  .team {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_5.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 15px;
+    width: 100%;
+  }
+  .team > .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title_team {
+    text-align: center;
+  }
+  .title_team h4 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif; 
+    margin: 0px;
+    color: white;
+  }
+  .team_detail {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .team_text {
+    max-width: 50%;
+    padding-left: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: white;
+  }
+  .team_img img{
+    width: 400px;
+    height: 400px;
+  }
+  .subscription_form {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_6.png);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 15px;
+    width: 100%;
+  }
+  .subscription_form > .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subscription_title {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .subscription_title_text {
+    width: 45%;
+  }
+  .subscription_title_text h3 {
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif;
+  }
+  .subscription_title_text h2 {
+    font-size: 60px;
+    margin: 0px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+  }
+  .form_sb {
+    display: flex;
+    align-items: end;
+    width: 45%;
+    justify-items: center;
+    margin-bottom: 10px;
+  }
+  .form_sb button {
+    width: 90%;
+    height: 30%;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+  }
+  .form_sb button:hover {
+    opacity: 0.7;
+  }
+  .footer > .container {
+    background-color: rgb(31, 31, 31);
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .footer > .container p {
+    margin: 0px;
+    color: whitesmoke;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+  }
+  .foot_icon {
+    display: flex;
+    justify-content: center;
+  }
+  .foot_icon div {
+    padding: 0px 10px;
+  }
+  .foot_icon div img:hover {
+    opacity: 0.7;
+  }
+}
+@media (max-width: 1200px){
+  body {
+    margin: 0px;
+  }
+  .header {
+    background-color: rgb(31, 31, 31);
+  }
+  .navigation_left {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+  }
+  .nav_brand:hover {
+    opacity: 0.7;
+  }
+  .nav_menu {
+    padding: 0px 15px;
+  }
+  .nav_menu > li {
+    display: inline-block;
+    padding: 15px 21px;
+    font-family: 'Playfair Display', serif;
+  }
+  .nav_menu > li a:hover {
+    opacity: 0.7;
+  }
+  .scrolls {
+    color: whitesmoke;
+  }
+  .nav_overlay_panel {
+    display: none;
+  }
+  .nav_menu_overlay_panel {
+    display: none;
+  }
+  .banner_top_detail {
+    position: relative;
+    display: flex;
+    /* 謎にdisplay: flexを使うことで動画の上に表示される */
+  }
+  .banner_top_detail > .container {
+    padding: 30px 15px 40px 15px;
+    z-index: 2;
+    width: 100%;
+  }
+  .banner_fadeInUp {
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(122, 122, 122);
+    padding: 7px 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .banner_fadeInUp > .bn {
+    display: flex;
+    align-items: center;
+  }
+  .bn > p {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    color: whitesmoke;
+  }
+  .bn > p > strong {
+    color: peru;
+    padding: 0px;
+    margin: 0px;
+  }
+  #img_bn_clear {
+    padding-top: 5px;
+  }
+  #img_bn_clear:hover {
+    cursor: pointer;
+  }
+  .banner_main_content {
+    text-align: right;
+    margin-left: auto;
+    margin-top: 60px;
+  }
+  .banner_main_content img {
+    width: 360px;
+    height: 80px;
+    margin: 0px;
+    margin-bottom: 14px;
+  }
+  .banner_main_content h4 {
+    font-weight: 500px;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+    line-height: 36px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+  }
+  .banner_list {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 16px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner_list_detail {
+    width: 50%;
+    display: flex;
+  }
+  .img_bn_1 {
+    width: 40%;
+    align-self: center;
+  }
+  .img_bn_1 img {
+    height: 30px;
+  }
+  .img_bn_2 {
+    width: 60%;
+  }
+  .img_bn_2 img {
+    width: 100%;
+    height: 130px;
+  }
+  .banner_list_detail_2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+  .btn_h2_bn {
+    width: 50%;
+  }
+  .btn_h2_bn h2 {
+    color: yellow;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+  }
+  .btn_live {
+    width: 50%;
+    text-align: center;
+  }
+  .btn_live a img {
+    height: 50px;
+  }
+  .btn_live a img:hover {
+    opacity: 0.7;
+  }
+  .main_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .main_video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-fit: coverは動画や写真コンテナで使われる */
+  }
+  .middle > .container {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    padding: 90px 15px;
+  }
+  .video_introduce iframe {
+    width: 600px;
+    height: 300px;
+  }
+  .feel_blockchain_tech {
+    display: flex;
+    margin: auto;
+    margin-top: 50px; 
+    /* marginをオートで合わせて上書きで指定する仕組みになっている */
+    justify-content: space-between;
+    max-width: 700px;
+  }
+  .feel_blockchain_tech div {
+    align-items: baseline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: flex;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .feel_blockchain_tech div h4 {
+    margin: 0px;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+  }
+  .feel_blockchain_tech div span {
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+  }
+  .middle_content_1 > .container {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_3.png);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 15px;
+  }
+  .turners_title > img {
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+  }
+  .turners_title > h2 {
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .turners_text .line_gray {
+    width: 100%;
+    height: 3px;
+  }
+  .turners_p p {
+    margin-left: 10px;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+  }
+  .turners_p p img {
+    width: 28px;
+    height: 44px;
+  }
+  .turners_p span {
+    margin-left: 10px;
+    color: white;
+  }
+  .feature_content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .middle_content_2 > .container {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 15px;
+  }
+  .title_concept {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .title_concept img {
+    width: 260px;
+    height: 60px;
+  }
+  .concept_itemization {
+    min-width: 45%;
+  }
+  .activities_content {
+    margin-left: 10px;
+  }
+  .activities_content_detail {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: rgb(37, 37, 36);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  .activities_content div {
+    padding: 25px;
+    background-color: rgb(226, 238, 247);
+    border-radius: 5px;
+  }
+  .activities_content p {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .activities_content strong {
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+  }
+  .places_content {
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  .place {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(226, 238, 247);
+    margin-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+  }
+  .places_content div {
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgb(37, 37, 36);
+  }
+  .places_content p {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+  }
+  .places_content strong {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  .concept_add_animation {
+    max-width: 45%;
+    margin-right: 15px;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  .concept_add_animation_content_1 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .concept_add_animation_content_1 div img {
+    border: solid 2px;
+    border-color:rgb(135, 255, 249);
+    border-radius: 8px;
+    width: 95%;
+    height: 350px;
+    object-fit: cover;
+  }
+  .middle_content_4 > .container {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockcain_img_4.png);
+    background-size: cover;
+    background-position: center;
+    padding: 55px 15px;
+  }
+  .title_road_map {
+    text-align: center;
+  }
+  .title_road_map img {
+    width: 300px;
+    height: 50px;
+  }
+  .line_gray_2 {
+    width: 100%;
+    height: 3px;
+    margin-bottom: 50px;
+  }
+  .road_map_detail_content_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .road_sch {
+    width: 400px;
+    height: auto;
+    margin: 0px 15px 30px;
+    background-color: rgb(8, 8, 8);
+    border: 2px solid rgb(177, 177, 177); 
+    border-radius: 10px;
+    padding: 25px;
+  }
+  .road_sch h4 {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.822);
+  }
+  .line_gray_3 {
+    width: 100%;
+    height: 2px;
+  }
+  .road_sch ul {
+    padding-left: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+  }
+  .road_sch ul li {
+    color:rgba(201, 201, 201, 0.932);
+    font-size: 18px;
+  }
+  .team > .container {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_5.png);
+    background-size: cover;
+    background-position: center;
+    padding:  100px 15px;
+  }
+  .title_team {
+    text-align: center;
+  }
+  .title_team h4 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif; 
+    margin: 0px;
+    color: white;
+  }
+  .team_detail {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .team_text {
+    max-width: 50%;
+    padding-left: 15px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: white;
+  }
+  .team_img  img{
+    width: 400px;
+    height: 400px;
+  }
+  .subscription_form > .container {
+    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_6.png);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 15px;
+  }
+  .subscription_title {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .subscription_title_text {
+    width: 45%;
+  }
+  .subscription_title_text h3 {
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif;
+  }
+  .subscription_title_text h2 {
+    font-size: 60px;
+    margin: 0px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Playfair Display', serif;
+  }
+  .form_sb {
+    display: flex;
+    align-items: end;
+    width: 45%;
+    justify-items: center;
+    margin-bottom: 10px;
+  }
+  .form_sb button {
+    width: 90%;
+    height: 30%;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+  }
+  .form_sb button:hover {
+    opacity: 0.7;
+  }
+  .footer > .container {
+    background-color: rgb(31, 31, 31);
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .footer > .container p {
+    margin: 0px;
+    color: whitesmoke;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+  }
+  .foot_icon {
+    display: flex;
+    justify-content: center;
+  }
+  .foot_icon div {
+    padding: 0px 10px;
+  }
+  .foot_icon div img:hover {
+    opacity: 0.7;
+  }
+}
+@media (max-width: 1016px){
+  .road_sch {
+    width: calc(40% - 30px);
+  }
+}
+@media (max-width: 993px){
+  .nav_menu {
+    display: none;
+  }
+  .nav_overlay_panel {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+  }
+  #img_clear_nav {
+    text-align: right;
+    align-items: center;
+    padding: 20px;
+  }
+  #img_clear_nav_detail {
+    cursor: pointer;
+  }
+  .nav_menu_overlay_panel {
+    display: block;
+    width: 260px;
+    background-color: rgb(31, 31, 31);
+    position: fixed;
+    top: 0;
+    left: -400px;
+    height: 100%;
+    z-index: 200;
+    transition-duration: 0.8s;
+  }
+  .nav_menu_overlay_content {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+  .nav_menu_overlay_content li {
+    list-style: none;
+    border-top: solid 1px white;
+    padding: 15px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    font-family: 'Playfair Display', serif;
+  }
+  .nav_menu_overlay_content li a {
+    text-decoration: none;
+  }
+  .nav_menu_overlay_content > li:last-child {
+    border-bottom: solid 1px white;
+  }
+  #nav_overlay_panel_background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+  }
+  .nav_brand img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .subscription_title {
+    flex-wrap: wrap;
+  }
+  .subscription_title_text {
+    width: 100%;
+  }
+  .subscription_title_text h3 {
+    margin-top: 0px;
+  }
+  .subscription_title_text h2 {
+    font-size: 60px;
+    margin: 0px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  .form_sb {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    justify-items: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .form_sb button {
+    width: 90%;
+    height: 120%;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+  }
+  .form_sb button:hover {
+    opacity: 0.7;
+  }
+}
+@media (max-width: 895px){
+  .banner_list_detail_2 {
+    display: block;
+    text-align: center;
+    width: 40%;
+  }
+  .btn_h2_bn {
+    width: 100%;
+  }
+  .btn_live {
+    width: 100%;
+  }
+}
+@media (max-width: 876px){
+  .feature_content {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .concept_add_animation {
+    max-width: 100%;
+  }
+  .team_detail {
+    width: 100%;
+    justify-content: center;
+  }
+  .team_text {
+    max-width: 100%;
+  }
+}
+@media (max-width: 786px){
+  .banner_list_detail {
+    display: block;
+    width: 60%;
+  }
+  .img_bn_1 {
+    margin-top: 10px;
+  }
+  .img_bn_2 {
+    width: 80%;
+  }
+  .img_bn_2 img {
+    height: 80px;
+  }
+  .feel_blockchain_tech div img {
+    display: none;
+  }
+}
+@media (max-width: 767px){
+  main {
+    text-align: center;
+  }
+}
+@media (max-width: 700px){
+  .video_introduce iframe {
+    width: 500px;
+    height: 250px;
+  }
+  .feel_blockchain_tech {
+    margin-top: 30px;
+  }
+  .feel_blockchain_tech div {
+    letter-spacing: 3px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .feel_blockchain_tech div h4 {
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .feel_blockchain_tech div span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 650px){
+  .video_introduce iframe {
+    width: 400px;
+    height: 200px;
+  }
+  .feel_blockchain_tech {
+    margin-top: 30px;
+  }
+  .feel_blockchain_tech div {
+    letter-spacing: 3px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .feel_blockchain_tech div h4 {
+    margin: 0px;
+    margin-left: 10px;
+  }
+  .feel_blockchain_tech div span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 600px){
+  .btn_h2_bn h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 590px){
+  .road_sch {
+    width: 100%;
+  }
+}
+@media (max-width: 575px){
+  .feel_blockchain_tech div h4 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 500px){
+  .banner_list_detail {
+    width: 50%;
+  }
+  .banner_list_detail_2 {
+    width: 50%;
+  }
+  .form_sb {
+    display: block;
+  }
+  .input_span {
+    width: 100%;
+  }
+  #email {
+    width: calc(100% - 30px);
+  }
+  .form_button_icon_around {
+    width: 100%;
+  }
+}
+@media (max-width: 450px){
+  .banner_main_content {
+    text-align: center;
+  }
+  .banner_main_content img {
+    width: 240px;
+   height: 50px;
+  }
+  .banner_main_content h4 {
+    font-size: 24px;
+  }
+  .concept_add_animation_content_1 div img {
+    height: 240px;
+  }
+
+  .video_introduce iframe {
+    width: 300px;
+    height: 150px;
+  }
+}
+@media (max-width: 420px){
+  .feel_blockchain_tech div h4 {
+    font-size: 20px;
+  }
+  .feel_blockchain_tech div span {
+    font-size: 14px;
+  }
+  .team_img img {
+    width: 300px;
+    height: 300px;
+  }
+}
+

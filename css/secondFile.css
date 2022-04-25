@@ -1,0 +1,12 @@
+.concept_add_animation_content_1 {
+  visibility: hidden;
+}
+.concept_add_animation_content_1.slick-initialized {
+  visibility: visible;
+}
+#banner_fadeInUp {
+  opacity: 0;
+  visibility: hidden;
+  transition: 2s;
+  transform: translateY(30px);
+}
