@@ -164,10 +164,9 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* object-fit: coverは動画や写真コンテナで使われる */
   }
   .middle {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img.png);
+    background-image: url(../blockchain_img.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -211,7 +210,7 @@
     display: block;
   }
   .middle_content_1 {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_3.png);
+    background-image: url(../blockchain_img_3.png);
     background-size: cover;
     background-position: center;
     padding: 60px 15px;
@@ -258,7 +257,7 @@
     padding-bottom: 50px;
   }
   .middle_content_2 {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_2.png);
+    background-image: url(../blockchain_img_2.png);
     background-size: cover;
     background-position: center;
     padding: 0px 15px;
@@ -361,7 +360,7 @@
     object-fit: cover;
   }
   .middle_content_4 {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockcain_img_4.png);
+    background-image: url(../blockcain_img_4.png);
     background-size: cover;
     background-position: center;
     padding: 55px 15px;
@@ -418,7 +417,7 @@
     font-size: 18px;
   }
   .team {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_5.png);
+    background-image: url(../blockchain_img_5.png);
     background-size: cover;
     background-position: center;
     padding: 100px 15px;
@@ -457,7 +456,7 @@
     height: 400px;
   }
   .subscription_form {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_6.png);
+    background-image: url(../blockchain_img_6.png);
     background-size: cover;
     background-position: center;
     padding: 90px 15px;
@@ -572,7 +571,6 @@
   .banner_top_detail {
     position: relative;
     display: flex;
-    /* 謎にdisplay: flexを使うことで動画の上に表示される */
   }
   .banner_top_detail > .container {
     padding: 30px 15px 40px 15px;
@@ -695,10 +693,9 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* object-fit: coverは動画や写真コンテナで使われる */
   }
   .middle > .container {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img.png);
+    background-image: url(../blockchain_img.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -713,7 +710,6 @@
     display: flex;
     margin: auto;
     margin-top: 50px; 
-    /* marginをオートで合わせて上書きで指定する仕組みになっている */
     justify-content: space-between;
     max-width: 700px;
   }
@@ -737,7 +733,7 @@
     display: block;
   }
   .middle_content_1 > .container {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_3.png);
+    background-image: url(../blockchain_img_3.png);
     background-size: cover;
     background-position: center;
     padding: 60px 15px;
@@ -778,7 +774,7 @@
     padding-bottom: 50px;
   }
   .middle_content_2 > .container {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_2.png);
+    background-image: url(../blockchain_img_2.png);
     background-size: cover;
     background-position: center;
     padding: 0px 15px;
@@ -875,7 +871,7 @@
     object-fit: cover;
   }
   .middle_content_4 > .container {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockcain_img_4.png);
+    background-image: url(../blockcain_img_4.png);
     background-size: cover;
     background-position: center;
     padding: 55px 15px;
@@ -926,7 +922,7 @@
     font-size: 18px;
   }
   .team > .container {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_5.png);
+    background-image: url(../blockchain_img_5.png);
     background-size: cover;
     background-position: center;
     padding:  100px 15px;
@@ -959,7 +955,7 @@
     height: 400px;
   }
   .subscription_form > .container {
-    background-image: url(file:///C:/Users/Youngman/Desktop/Turners/blockchain_img_6.png);
+    background-image: url(../blockchain_img_6.png);
     background-size: cover;
     background-position: center;
     padding: 90px 15px;
